@@ -16,8 +16,8 @@ Don't forget to enable **Develop > Allow Remote Automation** in your Safari befo
 
 **Safari** is extremely tender and vulnerable in parallel running matters. To handle this precious load balancing **ddry** has modular/Makefile workaround.
 
-Please take a look at **main.coffee** file containing core spec config and the rest spec files simply applying specific constraints to it.
+Please take a look at [main.coffee](https://github.com/ddry/selenium-safari/blob/master/source/spec/main.coffee) file containing core spec config and the rest spec files simply applying specific constraints to it.
 
-Then **Makefile** explains quite comfortable way to feed partial tasks to **Mocha**.
+Then [Makefile](https://github.com/ddry/selenium-safari/blob/master/Makefile) explains quite comfortable way to feed partial tasks to **Mocha**.
 
 Adjust partial tasks and sleep times to achieve the full stability of testing in your environment.
